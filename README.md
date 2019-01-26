@@ -19,3 +19,4 @@ https://sustainability.google/projects/announcement-100/
 https://aws.amazon.com/about-aws/sustainability/
 
 ### 5)
+https://qz.com/1281850/bitcoins-energy-consumption-is-as-much-a-year-as-all-of-ireland-says-the-first-peer-reviewed-study-on-the-subject/
