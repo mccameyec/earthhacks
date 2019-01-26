@@ -1,4 +1,4 @@
-package com.varvet.barcodereadersample
+package com.varvet.cleanstreak
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +8,10 @@ import android.widget.Button
 import android.widget.TextView
 import com.google.android.gms.common.api.CommonStatusCodes
 import com.google.android.gms.vision.barcode.Barcode
-import com.varvet.barcodereadersample.barcode.BarcodeCaptureActivity
+import com.varvet.cleanstreak.barcode.BarcodeCaptureActivity
+import android.media.MediaPlayer
+import java.util.concurrent.TimeUnit
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,6 +36,11 @@ class MainActivity : AppCompatActivity() {
                     val barcode = data.getParcelableExtra<Barcode>(BarcodeCaptureActivity.BarcodeObject)
                     val p = barcode.cornerPoints
                     mResultTextView.text = barcode.displayValue
+                    setContentView(R.layout.activity_main)
+                    val mp = MediaPlayer.create(applicationContext, R.raw.glass_ping) //import the sound
+                    mp.start() //play the sound
+                    val intent = Intent(applicationContext, BarcodeCaptureActivity::class.java)
+                    startActivityForResult(intent, BARCODE_READER_REQUEST_CODE)
                 } else
                     mResultTextView.setText(R.string.no_barcode_captured)
             } else
