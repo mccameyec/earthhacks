@@ -36,3 +36,4 @@ Directing focus, plausability, timeline to success
 ## What we learned
 
 ## What's next for CleanStreak
+Find ways to use recycled phones to implement the scanner app. 
