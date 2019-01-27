@@ -24,7 +24,12 @@ Simple user app to add items, manage them, check your stats, and spend your poin
 ## Challenges we ran into 
 Limited time to develop app -- compensated with pretty storyboarding.
 
+Big design choices (streaks, leaderboard, yadayadyadyadya)
+
 ## Accomplishments we're proud of
+Solid workflow from start to finish -- chose a challenge, had an idea and some working prototypes within ~1.5 hours which left a lot of time for adding other functionalities and making everything attractive & polished.
+
+Directing focus, plausability, timeline to success
 
 ## What we learned
 
