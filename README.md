@@ -21,6 +21,8 @@ Simple scanner app to scan unique QR codes and reward points to different users,
 
 Simple user app to add items, manage them, check your stats, and spend your points.
 
+User-behavior/psychology/sociology considerations. Ease of use, no leaderboard, balancing time-it-takes-to-get-enough-points-for-rewards 
+
 ## Challenges we ran into 
 Limited time to develop app -- compensated with pretty storyboarding.
 
